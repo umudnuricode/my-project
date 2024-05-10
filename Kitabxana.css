@@ -1,0 +1,573 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.esas {
+    height: 900px !important;
+}
+
+.esas img {
+    height: 900px !important;
+}
+
+.el1 {
+    width: 100%;
+}
+
+.el2 {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.el4 {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* animation-name: anim; */
+    animation-duration: 2s;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.son {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.son i {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.heyet1 {
+    width: 100%;
+    /* height: 500px; */
+    /* display: flex; */
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.heyet2 {
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.he {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heyet3 {
+    width: 30%;
+    height: 1050px;
+    padding: 30px;
+}
+
+.heye3 {
+    width: 70%;
+    height: 1050px;
+    padding: 30px;
+}
+
+.heyet3 h3 {
+    margin: 28px;
+}
+
+.heye3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.im img {
+    width: 50px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.c {
+    position: relative;
+}
+
+.cl {
+    width: 45%;
+    height: 850px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    text-align: center;
+    display: none;
+}
+
+.cl i {
+    font-size: 40px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+.cl img {
+    width: 100%;
+    height: 90%;
+}
+
+.m1 {
+    position: relative;
+}
+
+.m2 {
+    width: 100%;
+    height: 600px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    display: none;
+}
+
+.m2 i {
+    font-size: 30px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.m2 img {
+    width: 30%;
+    height: 70%;
+    margin: 25px;
+}
+
+.m3 {
+    width: 100%;
+    /* height: 600px; */
+    /* background-color: blue; */
+    position: absolute;
+    top: 40px;
+    display: none;
+    /* display: flex; */
+}
+
+.m4 {
+    /* background-color: red; */
+    width: 40%;
+}
+
+.m5 {
+    background-color: red;
+    width: 60%;
+    color: white;
+    position: relative;
+}
+
+.m5 .fa-x {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.mi3 {
+    width: 100%;
+    /* height: 440px; */
+    /* background-color: blue; */
+    position: absolute;
+    top: 20px;
+    display: none;
+    /* display: flex; */
+}
+
+.mi4 {
+    /* background-color: red; */
+    width: 40%;
+}
+
+.mi5 {
+    background-color: blue;
+    width: 60%;
+    color: white;
+    position: relative;
+}
+
+.mi5 .container table tbody img {
+    width: 40px;
+}
+
+.mi5 .container table tbody .fa-solid {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.m5 .container table tbody img {
+    width: 70px;
+}
+
+.m5 .container table tbody .fa-solid {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.mi5 .fa-x {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.m5 button {
+    padding: 20px;
+    /* position: absolute;
+    right: 100px;
+    top: 20px; */
+    margin: 20px;
+    border-radius: 10mm;
+    background-color: black;
+    color: white;
+}
+
+.mi5 button {
+    padding: 20px;
+    /* position: absolute;
+    right: 100px;
+    butt: 20px; */
+    margin: 20px;
+    border-radius: 10mm;
+    background-color: black;
+    color: white;
+}
+
+.mi5 h1 {
+    text-align: center;
+}
+
+.m5 h1 {
+    text-align: center;
+}
+
+.m5 h2 {
+    /* position: absolute;
+    top: 30px;
+    left: 30px; */
+    margin: 0px 0px 20px 25px;
+}
+
+.mi5 h2 {
+    /* position: absolute;
+    top: 30px;
+    left: 30px; */
+    margin: 0px 0px 20px 25px;
+}
+
+.h {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.um {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ham {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3mm;
+    background-color: black;
+    color: white;
+}
+
+.bas1 {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bas2 {
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    border-radius: 3mm;
+}
+
+.bas2 h1 {
+    margin: 20px;
+}
+
+.bas2 img {
+    width: 100%;
+    height: 85%;
+}
+
+.etrafli1 {
+    width: 97%;
+    height: 500px;
+    /* background-color: red; */
+    position: absolute;
+    top: 277px;
+    /* display: flex; */
+    justify-content: space-around;
+    margin: auto;
+    display: none;
+}
+
+.etrafli2 {
+    width: 50%;
+    background-color: white;
+    height: auto;
+    /* border-radius: 3mm; */
+}
+
+.etrafli2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.etrafli3 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    /* border-radius: 3mm; */
+    position: relative;
+}
+
+.etrafli3 i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+}
+
+.etrafli3 h1 {
+    margin-bottom: 20px;
+}
+
+.eb {
+    opacity: 0.7;
+}
+
+.Sifaris {
+    width: 100%;
+    /* height: 400px; */
+}
+
+.Sifaris2 {
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Sifaris2 input {
+    width: 49%;
+    margin-bottom: 30px;
+    height: 50px;
+    padding: 20px;
+}
+
+.Sifaris2 textarea {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.Sifaris2 button {
+    width: 100%;
+    padding: 20px;
+}
+
+@media(max-width:768px) {
+
+    .he {
+        display: block;
+    }
+
+    .heyet3 {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .heyet3 h3 {
+        font-size: 15px;
+        margin: 30px 0px 30px 80px;
+    }
+
+    .heye3 {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+    }
+
+    .heyet1 {
+        padding: 0px;
+    }
+
+    .el1 {
+        margin-top: 20px;
+    }
+
+    .el4 {
+        padding: 20px;
+        display: block;
+    }
+
+    .l1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .l2 {
+        width: 100%;
+    }
+
+    .um {
+        display: block;
+        text-align: center;
+    }
+
+    .el6 {
+        padding: 30px;
+    }
+
+    .son {
+        padding: 0px;
+    }
+
+    .son div h2 {
+        font-size: 20px;
+    }
+
+    .son div i {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .cl {
+        width: 100%;
+        height: 800px;
+        left: 0px;
+    }
+
+    .ad1 {
+        left: 20px;
+        top: 700px;
+        animation-name: none;
+    }
+
+    .ad2 {
+        left: 20px;
+        top: 700px;
+        animation-name: none;
+    }
+
+    .ad3 {
+        left: 10px;
+        top: 750px;
+        animation-name: none;
+    }
+
+    .ad1 h3 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .ad2 h3 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .ad3 h3 {
+        font-size: 45px;
+        color: white;
+    }
+
+    .m2 {
+        height: auto;
+    }
+
+    .m2 img {
+        width: 50%;
+    }
+
+    .m2 i {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .bas2 {
+        width: 100%;
+    }
+
+    .etrafli1 {
+        flex-wrap: wrap;
+        top: 150px;
+    }
+
+    .etrafli2 {
+        width: 100%;
+    }
+
+    .etrafli3 {
+        width: 100%;
+    }
+    .esas{
+        height: 830px!important;
+    }
+    .Sifaris2{
+        width: 100%;
+        padding: 30px;
+    }
+    .Sifaris2 textarea{
+        height: 100px;
+    }
+    .son{
+        padding: 10px;
+    }
+}

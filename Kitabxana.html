@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="Kitabxana.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Kitabxana</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark p-3">
+        <div class="container-fluid">
+            <div class="mt-2 ms-5">
+                <a class="navbar-brand text-light" href="#">Kitabxana</a>
+            </div>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-2 me-5" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-light" href="#h">Kitablar</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-light" href="#ef">Muellifler</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-light" href="#t">Haqqimizda</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-light" href="#Sb">Online Sifaris</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide pt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner esas">
+            <div class="carousel-item active">
+                <img src="/img/Əlişir Nəvai.jpg" alt="Los Angeles" class="d-block w-100 eb">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/Emil Zolya.jpg" alt="New York" class="d-block w-100 eb">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/Hafiz Şirazi.jpg" alt="Chicago" class="d-block w-100 eb">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="heyet1">
+        <div class="heyet2 pt-5" id="h">
+            <h1 class="pt-5">Kitablar</h1>
+        </div>
+        <button id="i1" class="ham">Hamisi</button>
+        <button id="i2" class="ham">Azərbaycan ədəbiyyatı</button>
+        <button id="i3" class="ham">Klassika</button>
+        <button id="i4" class="ham">Çağdaş ədəbiyyat</button>
+        <button id="i4" class="ham">Dünya ədəbiyyatı</button>
+        <div class="bas1"></div>
+        <div class="etrafli1"></div>
+    </div>
+    <div class="text-center pt-5" id="ef">
+        <h1 class="pt-5">Muellifler</h1>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/img/NizamiGencevi.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/MƏHƏMMƏD FÜZULİ.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/MİRZƏ FƏTƏLİ AXUNDOV.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/MİRZƏ ƏLƏKBƏR SABİR.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/İMADƏDDİN NƏSİMİ.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/ÜZEYİR HACIBƏYLİ (HACIBƏYOV).jpg" />
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <div class="el1">
+        <div class="el2 pt-5" id="t">
+            <h1 class="pt-5">Haqqimizda</h1>
+        </div>
+        <div class="el4">
+            <p>
+                Mütaliəyə marağın artırılması məqsədi ilə yaradılan portal yüzlərlə bədii, elmi-kütləvi ədəbiyyat
+                nümunələrinin, müxtəlif sahələrə dair lüğət və sözlüklərin elektron versiyasını istifadəçilərin
+                ixtiyarına verir.
+
+                Portal eyni zamanda aparıcı dünya kitabxanalarına yol açmaqla yanaşı, dünya dillərinə tərcümə edilmiş
+                Azərbaycan ədəbiyyatının, həmçinin Azərbaycan dilinə tərcümə edilmiş dünya ədəbiyyatı nümunələrinin
+                elektron versiyalarına da yer ayırır.
+
+                Dünyanın aparıcı kitab evləri və kitabxanaları ilə əməkdaşlıq edən virtual kitabxana, onlayn mütaliə ilə
+                yanaşı, oxuculara çoxsaylı nəşrlərin elektron formatını əldə etmək imkanı da verir.
+
+                Kitabxananın rusdilli oxucular üçün xüsusi bölümü fəaliyyət göstərir. Hazırda portalın ingilis, alman,
+                türk, ərəb, ispan, fars və fransız dili versiyaları üzərində iş gedir.
+            </p>
+        </div>
+        <div class="el4">
+            <p>Unvan: Bakı şəhəri, Nərimanov rayonu, Şahin Mustafayev küç</p>
+            <p>Telefon: 0123456789</p>
+            <p>E-mail: contact@anl.az</p>
+        </div>
+    </div>
+    <div class="Sifaris">
+        <div class="el2 pt-3" id="Sb">
+            <h1 class="pt-5">Sifaris et</h1>
+        </div>
+        <div class="Sifaris2">
+            <input type="text" placeholder="Ad">
+            <input type="text" placeholder="Soyad">
+            <input type="text" placeholder="E-poct">
+            <input type="text" placeholder="Kitabin adi">
+            <input type="text" placeholder="Kitabin muellifi">
+            <input type="text" placeholder="Kitabin ili">
+            <textarea name="" id="" placeholder="Qeyd"></textarea>
+            <button>Gonder</button>
+        </div>
+    </div>
+    <div class="son">
+        <div>
+            <h2>Kitabxana 2024</h2>
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+    <script src="Kitabxana.js"></script>
+</body>
+
+</html>
